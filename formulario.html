@@ -1,0 +1,47 @@
+<! DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="styleform.css">
+	<title></title>
+</head>
+
+<body>
+<div id="caja">
+<h1>REGISTRARSE</h1>
+	<form method="POST" action="formulario.php">
+	<table>
+	<tr>
+		<td><label for="nombre">nombre: </label></td>
+		<td><input type="text" required name="nombre" id="nombre" placeholder="nombre"/></td>
+	</tr>
+	<tr>
+		<td><label for="apellido">apellido: </label></td>
+		<td><input type="text" required name="apellido" id="apellido" placeholder="apellido"/></td>
+		</tr>
+	<tr>
+		<td><label for="doc_id">Documento Identidad: </label></br></td>
+		<td><input type="num" required name="doc_id" id="doc_id" placeholder="doc.indentidad"/></br></td>
+		</tr>
+		<tr>
+		<td><label for="fec_nac">Fecha de Nacimiento: </label></td>
+		<td><input type="date" required name="fec_nac" id="fec_nac"/></td>
+		</tr>
+			<tr>
+		<td><label for="e_mail">Correo Electronico: </label></td>
+		<td><input type="text"  name="e_mail" id="e_mail" placeholder="usuario@empresa.com" value="ninguno"/></td>
+		</tr>
+		<tr>
+		<td><label for="pag_web">Pagina WEB: </label></td>
+		<td><input type="text"  name="pag_web" id="pag_web" placeholder="www.google.com" value="ninguno/></td>
+		</tr>
+		<tr>
+		<td><input type="reset" value="limpiar"></td>
+		<td><input type="submit" value="LISTO"/><a href="formulario.php"></td>
+			<a href="loginindex.html">ATRAS</a>
+		</tr>
+		</table>
+		</form>
+
+</div>
+</body>
+</html>

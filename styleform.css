@@ -1,0 +1,33 @@
+table{
+	font-family:arial;
+	font-size:30px;
+	width:400px;
+	margin:100px auto;
+}
+[required]{
+	border-color: blue;
+	box-shadow: 0 0 3px blue;
+			}
+	#caja{
+		width:800px;height:700px;
+		
+		margin:200px auto;
+		border-radius:6px;
+		background:#f0f0f0;
+		padding:1em;
+		border:1px solid black;
+		}
+	body{background:#b6b6b6;
+	font-family:arial;
+	font-size:15px;
+	margin:200px auto;
+	width:800px;height:700px;
+
+	}
+	php{
+	margin:200px auto;
+	
+		float:left;
+	}
+	
+	

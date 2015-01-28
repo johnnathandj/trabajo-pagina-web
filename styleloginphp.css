@@ -1,0 +1,17 @@
+header{
+margin:200px auto;
+	width:200px;
+	height:200px;
+	background-color:rgb(255,220,45.45s);
+	border:4px red;
+}
+body{
+font-family:arial;font-size:40px;
+
+background:#f0f0f0;
+}
+
+.letra{
+background:red;
+font-size:40px;
+}
